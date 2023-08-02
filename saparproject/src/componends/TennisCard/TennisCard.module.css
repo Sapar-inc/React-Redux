@@ -1,0 +1,9 @@
+.image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.wrapper {
+    border: 1px gainsboro solid;
+    padding: 10px;
+}

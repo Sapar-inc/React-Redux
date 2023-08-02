@@ -1,0 +1,47 @@
+.wrapper {
+  background-color: #363755;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.auth_block {
+  background-color: #ffffff;
+  max-width: 600px;
+  min-height: 610px;
+  width: 100%;
+  border-radius: 25px;
+  padding-top: 40px;
+  position: relative;
+}
+.auth_register {
+  background-color: #edeeef;
+  max-width: 540px;
+  min-height: 55px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  position: relative;
+  gap: 15px;
+  align-items: center;
+  margin-top: 30px;
+  padding: 0 5px;
+  width: 100%;
+}
+.tab {
+  flex-grow: 1;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.tab.active {
+  background-color: #ffffff;
+}

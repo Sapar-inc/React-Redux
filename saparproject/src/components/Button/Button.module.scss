@@ -1,0 +1,18 @@
+.btn {
+  min-height: 56px;
+  border-radius: 10px;
+  background-color: #363755;
+  color: white;
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  width: 100%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  cursor: pointer;
+
+  &.warning {
+    background-color: hsla(360, 80%, 27%, 1);
+  }
+}

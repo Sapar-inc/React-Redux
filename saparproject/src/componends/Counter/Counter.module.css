@@ -1,0 +1,43 @@
+.counter{
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 0 auto;
+    background-color: hsla(270,60%,30%,1);
+    color: white;
+}
+.title{
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+.value{
+    font-size: 20px;
+    text-align: center;
+}
+.buttons{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* text-align: center; */
+}
+.button{
+    padding: 20px;
+    background-color: hsla(320, 60%, 40%, 1);
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    /* text-align: center; */
+}
+.button:hover{
+    transform: translateY(-2px);
+}
+.button:active{
+    transform: translateY(2px);
+}

@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "login": "anime",
+      "password": "qwerty"
+    },
+    {
+      "id": 2,
+      "login": "anime1",
+      "password": "qwerty"
+    },
+    {
+      "id": 3,
+      "login": "anime2",
+      "password": "qwerty"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "text": "some text 1",
+      "image": "https://twinfinite.net/wp-content/uploads/2022/11/Chainsaw-Man-Anime-Makima-Staring-down-at-Denji-Screenshot.jpg?resize=1000%2C600",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "text": "some text 2",
+      "image": "https://twinfinite.net/wp-content/uploads/2022/11/Chainsaw-Man-Anime-Makima-Staring-down-at-Denji-Screenshot.jpg?resize=1000%2C600",
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "text": "some text 3",
+      "image": "https://twinfinite.net/wp-content/uploads/2022/11/Chainsaw-Man-Anime-Makima-Staring-down-at-Denji-Screenshot.jpg?resize=1000%2C600",
+      "userId": 3
+    }
+  ]
+}

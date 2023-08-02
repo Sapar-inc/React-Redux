@@ -1,0 +1,26 @@
+// @mixin flex($align: "center", $justify: "flex-start") {
+//   display: flex;
+//   flex-direction: row;
+//   align-items: $align;
+//   justify-content: $justify;
+// }
+
+// .container {
+//   @include flex("center", "center");
+//   padding: 40px;
+// }
+
+@mixin desktop() {
+  @media (min-width: 800px) {
+    @content;
+  }
+}
+
+// .button {
+//   transition: 0.3s;
+//   @include desktop() {
+//     &:hover {
+//       transform: translateY(-2px);
+//     }
+//   }
+// }

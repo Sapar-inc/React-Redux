@@ -1,0 +1,19 @@
+.FeedPage{
+    margin: 0 auto;
+    background-color: red;
+    width: 900px;
+    padding: 50px;
+    border-radius: 30px;
+}
+.postUser{
+    text-align: center;
+    background-color: white;
+    width: 200px;
+    border-radius: 30px;
+    cursor: pointer;
+    img{
+        width: 100%;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+}

@@ -1,0 +1,26 @@
+.label {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.input {
+  width: 100%;
+  min-height: 56px;
+  border-radius: 10px;
+  border-color: #d8dadc;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 125%;
+  border: 1px solid hsla(210, 5%, 85%, 1);
+  transition: 0.3s;
+
+  :focus {
+    border-color: hsla(210, 15%, 75%, 1);
+  }
+}
